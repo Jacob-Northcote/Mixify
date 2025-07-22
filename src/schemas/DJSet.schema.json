@@ -1,0 +1,36 @@
+{
+  "name": "DJSet",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the DJ set"
+    },
+    "songs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of songs in the set"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the DJ set vibe and style"
+    },
+    "arranged_songs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "AI-arranged song order"
+    },
+    "api_key": {
+      "type": "string",
+      "description": "OpenAI API key (encrypted)"
+    }
+  },
+  "required": [
+    "songs",
+    "description"
+  ]
+}
